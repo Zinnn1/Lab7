@@ -1,0 +1,122 @@
+<!Doctype html>
+<html lang="ru">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="icon" href="fav.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <title>Леонадро Ди Каприо</title>
+    </head>
+    <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+        <div>
+            <div class="container-menu fixed-top">
+                <div>
+                    <nav class="navbar navbar-expand-sn navbar-dark fixed-top" >
+                        <div class="container-fluid">
+                            <ul class="navbar-nav d-flex flex-row" >
+                                <li class="nav-item" style="padding: 5px;">
+                                    <a class="nav-link" href="info.html">Основная информация</a>
+                                </li>
+                                <li class="nav-item" style="padding: 5px;">
+                                    <a class="nav-link" href="films.html">Список фильмов</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="dropdown">
+                            <button
+                            type ="button"
+                            class="btn btn-primary dropdown-toggle"
+                            data-bs-toggle="dropdown"
+                            >Меню
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#carousel slide">Карусель</a></li>
+                                <li><a class="dropdown-item" href="#cardF">Фильмы</a></li>
+                                <li><a class="dropdown-item" href="#actorInfo">Краткая информация об актёре</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" >
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Leo1.jpg" class="d-block w-100" alt="m1" >
+                </div>
+                <div class="carousel-item">
+                    <img src="Leo2.jpg" class="d-block w-100" alt="m2" >
+                </div>
+                <div class="carousel-item">
+                    <img src="Leo3.jpg" class="d-block w-100" alt="m3" >
+                </div>
+                <div class="carousel-item">
+                    <img src="Leo4.jpg" class="d-block w-100" alt="m4" >
+                </div>
+                <div class="carousel-item">
+                    <img src="Leo5.webp" class="d-block w-100" alt="m5" >
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        
+            <div>
+                
+                <div id="cardF">
+                    <div class="card">
+                        <img src="diary.jpg" class="card-img" alt="Hannibal">
+                        <div class="card-body">
+                        <h5 class="card-title">Дневник баскетболиста»</h5>
+                        <p class="card-text">Повесть о погружении на самое дно улицы известного музыканта и поэта Джима Кэролла. Снятая в жестоком стиле, картина, которая шокирует своими откровенными сценами.</p>
+                        <a href="https://www.kinopoisk.ru/film/6175/" class="btn btn-primary">Смотреть</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="wolf.jfif" class="card-img" alt="Bastarden" >
+                        <div class="card-body">
+                        <h5 class="card-title">Волк с Уолл-Стрит</h5>
+                        <p class="card-text">1987 год. Джордан Белфорт становится брокером в успешном инвестиционном банке. Вскоре банк закрывается после внезапного обвала индекса Доу-Джонса. По совету жены Терезы Джордан устраивается в небольшое заведение, занимающееся мелкими акциями. Его настойчивый стиль общения с клиентами и врождённая харизма быстро даёт свои плоды. Он знакомится с соседом по дому Донни, торговцем, который сразу находит общий язык с Джорданом и решает открыть с ним собственную фирму. В качестве сотрудников они нанимают нескольких друзей Белфорта, его отца Макса и называют компанию «Стрэттон Оукмонт».</p>
+                        <a href="https://www.kinopoisk.ru/film/462682/" class="btn btn-primary">Смотреть</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="cursed.jfif" class="card-img" alt="Druk" >
+                        <div class="card-body">
+                        <h5 class="card-title">Остров проклятых</h5>
+                        <p class="card-text">Два американских судебных пристава отправляются на один из островов в штате Массачусетс, чтобы расследовать исчезновение пациентки клиники для умалишенных преступников. При проведении расследования им придется столкнуться с паутиной лжи, обрушившимся ураганом и смертельным бунтом обитателей клиники.</p>
+                        <a href="https://www.kinopoisk.ru/film/397667/" class="btn btn-primary">Смотреть</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class ="container-info">
+                <p id="actorInfo">
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Об актере
+                    </a>
+                </p>
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                       <a> Леона́рдо Вильге́льм Ди Ка́прио (англ. Leonardo Wilhelm DiCaprio; род. 11 ноября 1974, Лос-Анджелес, США) — американский актёр и кинопродюсер.
+
+                        Лауреат многочисленных наград, включая премию «Оскар» (2016), BAFTA (2016), премию Гильдии киноактёров США (2016), три премии «Золотой глобус» (2005, 2014, 2016), а также «Серебряного медведя» (1997) Берлинского кинофестиваля.
+                        
+                        Начав полноценную актёрскую карьеру в конце 1980-х годов, Ди Каприо получил признание как многообещающий новичок в начале 1990-х с ролями в драмах «Жизнь этого парня» и «Что гложет Гилберта Грейпа»,
+
+                        последняя из которых принесла 19-летнему Лео первые номинации на «Оскар» и «Золотой глобус» в категории «Лучший актёр второго плана». Ди Каприо продолжил сниматься в драматических лентах «Дневник баскетболиста»,
+
+                        «Полное затмение» и «Ромео + Джульетта», прежде чем на актёра обрушилась всемирная известность благодаря главной роли в фильме-катастрофе «Титаник».</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
